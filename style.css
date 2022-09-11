@@ -5,12 +5,23 @@ body {
     font-size: large;
 }
 
-/* #logo {
-    height: 50px;
-    width: 50px;
-} */
+.subheading {
+    color : #7F8487
+}
+
+#logo {
+    border: #2d2e30;
+    border-style: solid;
+    border-radius: 100%;
+    width: 200px;
+}
 
 h3 {
     color: #F10086;
     font-size: xx-large;
+}
+
+span {
+    color: #F10086;
+    font-size: larger;
 }
