@@ -36,6 +36,12 @@ span {
     font-size: larger;
 }
 
+/* progress bar styling starts here */
+
+.skills {
+    padding-left: 0px;
+}
+
 .progress {
     height: 20px;
     width: 20px;
