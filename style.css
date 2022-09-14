@@ -6,7 +6,13 @@ body {
 }
 
 .subheading {
-    color : #7F8487
+    color : #d2e2eb;
+}
+
+.centreAlign {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
 #logo {
@@ -14,6 +20,10 @@ body {
     border-style: solid;
     border-radius: 100%;
     width: 200px;
+}
+
+#logoBox {
+    padding-top: 100px;
 }
 
 h3 {
@@ -25,3 +35,44 @@ span {
     color: #F10086;
     font-size: larger;
 }
+
+.progress {
+    height: 20px;
+    width: 20px;
+    padding-top: 3px;
+    display: flex;
+}
+
+.progressBox {
+    max-width: 100%;
+    height: auto;
+}
+
+.progressContainer {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+}
+
+.progressBar {
+    display: flex;
+    align-items: center;
+}
+
+.progressText {
+    /* padding-right: 100px; */
+    width: 150px;
+}
+
+.box {
+    border-color: #d2e2eb;
+    border-style: solid;
+    border : 20px;
+}
+
+.box {
+    width: 10px;
+    height: 10px;
+    border-radius: 5%;
+    background-color: #c7d0d8;
+}  
