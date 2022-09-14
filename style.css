@@ -60,19 +60,19 @@ span {
 }
 
 .progressText {
-    /* padding-right: 100px; */
     width: 150px;
 }
 
 .box {
-    border-color: #d2e2eb;
+    border-color: #c7d0d8;
     border-style: solid;
-    border : 20px;
-}
-
-.box {
+    border-width : 2px;
     width: 10px;
     height: 10px;
     border-radius: 5%;
+    margin-right: 2%;
+} 
+
+.boxFilled {
     background-color: #c7d0d8;
-}  
+}
