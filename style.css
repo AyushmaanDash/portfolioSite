@@ -40,6 +40,7 @@ span {
 
 .skills {
     padding-left: 0px;
+    color: #c7d0d8;
 }
 
 .progress {
@@ -67,6 +68,20 @@ span {
 
 .progressText {
     width: 150px;
+    display: flex;
+    flex-direction: row;
+}
+
+.progressTextText {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.progressTextIcon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .box {
