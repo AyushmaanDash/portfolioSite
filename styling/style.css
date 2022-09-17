@@ -66,19 +66,19 @@ span {
     align-items: center;
 }
 
-.progressText {
+.progressTextContainer {
     width: 150px;
     display: flex;
     flex-direction: row;
 }
 
-.progressTextText {
+.progressText {
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
-.progressTextIcon {
+.progressIcon {
     display: flex;
     flex-direction: column;
     justify-content: center;
